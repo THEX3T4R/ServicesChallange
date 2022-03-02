@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32210.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{8AFEDF5A-E128-40B0-B253-8DEC5C314569}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Product", "Product", "{DA895F45-ACBE-4E35-AC44-5CE533C9A1FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{4B32C526-1E87-411E-9638-FA761C672DB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challange.Shared", "Shared\Challange.Shared\Challange.Shared.csproj", "{A8FC3789-D3C4-421F-91C4-141BFF241C57}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challange.Services.Application", "Services\Product\Challange.Services.Application\Challange.Services.Application.csproj", "{53FD2015-9CB8-436D-8184-9FB3D4C038BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challange.Services.Domain", "Services\Product\Challange.Services.Domain\Challange.Services.Domain.csproj", "{71A998FD-0489-4833-ACEF-B98118F940A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challange.Services.Infrastructure", "Services\Product\Challange.Services.Infrastructure\Challange.Services.Infrastructure.csproj", "{326A51CD-687B-41EF-A2F9-AFA4ADA88FD1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challange.Services.Product", "Services\Product\Challange.Services.Product\Challange.Services.Product.csproj", "{A449C81B-2653-4AA9-B296-1EC3AAE175E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Detail", "Detail", "{C1CE885A-D2B1-4816-B24F-404039394448}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challange.Services.Detail", "Services\Detail\Challange.Services.Detail\Challange.Services.Detail.csproj", "{7F8E62B7-D32D-4D58-81FB-B91DD79E69FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{0B7EA204-5A48-4EF0-9AC3-4840DD26B41A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challange.IdentityServer", "IdentityServer\Challange.IdentityServer\Challange.IdentityServer.csproj", "{E7CB8712-FEB7-4DCA-BAA2-F4CF401EEFA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8FC3789-D3C4-421F-91C4-141BFF241C57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8FC3789-D3C4-421F-91C4-141BFF241C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8FC3789-D3C4-421F-91C4-141BFF241C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8FC3789-D3C4-421F-91C4-141BFF241C57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53FD2015-9CB8-436D-8184-9FB3D4C038BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53FD2015-9CB8-436D-8184-9FB3D4C038BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53FD2015-9CB8-436D-8184-9FB3D4C038BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53FD2015-9CB8-436D-8184-9FB3D4C038BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71A998FD-0489-4833-ACEF-B98118F940A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71A998FD-0489-4833-ACEF-B98118F940A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71A998FD-0489-4833-ACEF-B98118F940A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71A998FD-0489-4833-ACEF-B98118F940A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{326A51CD-687B-41EF-A2F9-AFA4ADA88FD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{326A51CD-687B-41EF-A2F9-AFA4ADA88FD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{326A51CD-687B-41EF-A2F9-AFA4ADA88FD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{326A51CD-687B-41EF-A2F9-AFA4ADA88FD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A449C81B-2653-4AA9-B296-1EC3AAE175E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A449C81B-2653-4AA9-B296-1EC3AAE175E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A449C81B-2653-4AA9-B296-1EC3AAE175E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A449C81B-2653-4AA9-B296-1EC3AAE175E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F8E62B7-D32D-4D58-81FB-B91DD79E69FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F8E62B7-D32D-4D58-81FB-B91DD79E69FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F8E62B7-D32D-4D58-81FB-B91DD79E69FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F8E62B7-D32D-4D58-81FB-B91DD79E69FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7CB8712-FEB7-4DCA-BAA2-F4CF401EEFA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7CB8712-FEB7-4DCA-BAA2-F4CF401EEFA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7CB8712-FEB7-4DCA-BAA2-F4CF401EEFA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7CB8712-FEB7-4DCA-BAA2-F4CF401EEFA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DA895F45-ACBE-4E35-AC44-5CE533C9A1FA} = {8AFEDF5A-E128-40B0-B253-8DEC5C314569}
+		{A8FC3789-D3C4-421F-91C4-141BFF241C57} = {4B32C526-1E87-411E-9638-FA761C672DB8}
+		{53FD2015-9CB8-436D-8184-9FB3D4C038BC} = {DA895F45-ACBE-4E35-AC44-5CE533C9A1FA}
+		{71A998FD-0489-4833-ACEF-B98118F940A9} = {DA895F45-ACBE-4E35-AC44-5CE533C9A1FA}
+		{326A51CD-687B-41EF-A2F9-AFA4ADA88FD1} = {DA895F45-ACBE-4E35-AC44-5CE533C9A1FA}
+		{A449C81B-2653-4AA9-B296-1EC3AAE175E7} = {DA895F45-ACBE-4E35-AC44-5CE533C9A1FA}
+		{C1CE885A-D2B1-4816-B24F-404039394448} = {8AFEDF5A-E128-40B0-B253-8DEC5C314569}
+		{7F8E62B7-D32D-4D58-81FB-B91DD79E69FF} = {C1CE885A-D2B1-4816-B24F-404039394448}
+		{E7CB8712-FEB7-4DCA-BAA2-F4CF401EEFA1} = {0B7EA204-5A48-4EF0-9AC3-4840DD26B41A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5FD2DCBB-0F41-4926-8AD4-B2838C1FA80D}
+	EndGlobalSection
+EndGlobal
